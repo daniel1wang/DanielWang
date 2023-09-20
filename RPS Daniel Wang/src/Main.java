@@ -6,12 +6,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Game Loop Assignment:");
         System.out.println("Lets play rock, paper, scissors!");
+        System.out.println("Press 'r' for rock, 'p' for paper, and 's' for scissors. Press 'x' when you want to stop playing.");
         int win = 0;
         int lose = 0;
         Scanner scanner = new Scanner(System.in);
         String input = "";
         while (!input.equals("x")) {
-            System.out.println("Press 'r' for rock, 'p' for paper, and 's' for scissors. Press 'x' when you want to stop playing.");
             System.out.println("-------------------------------------------------------------------------------------------------");
             System.out.println("Wins: " + win + " Losses: " + lose);
             System.out.println("What is your pick?");
